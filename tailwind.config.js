@@ -9,6 +9,12 @@ module.exports = {
             spacing: {
                 container: "1230px",
             },
+            colors: {
+                primary: "#c3002f",
+                // Secondary: "#FB2576",
+                // bordercolor: "#C2C2C2",
+                ptagcolor: "#555c63",
+            },
         },
     },
     plugins: [],

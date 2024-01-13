@@ -1,0 +1,41 @@
+body {
+    background-image: url("./assets/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.owl-nav{
+ display: flex;
+}
+
+.button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border: #c3002f solid 1px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
+}
+.hoverspan {
+    background: #c3002f;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+.button:hover .hoverspan {
+    width: 100%;
+}
+.button:hover {
+    color: #fff;
+}

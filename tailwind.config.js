@@ -12,7 +12,7 @@ module.exports = {
             colors: {
                 primary: "#c3002f",
                 // Secondary: "#FB2576",
-                // bordercolor: "#C2C2C2",
+                textcolor: "#262626",
                 ptagcolor: "#555c63",
             },
         },

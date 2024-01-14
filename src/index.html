@@ -32,43 +32,49 @@
         <link href="./style.css" rel="stylesheet" />
     </head>
     <body>
-        <header class="bg-white flex fixed w-full drop-shadow-lg z-10">
+        <header class="bg-white flex fixed w-full drop-shadow-lg z-20">
             <div class="container mx-auto flex justify-between px-2 py-5">
                 <div class="text-4xl font-bold">LOGO</div>
                 <nav class="flex items-center justify-center">
                     <ul
                         class="uppercase flex gap-x-16 text-ptagcolor font-ru font-medium"
                     >
-                        <li
+                        <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="index.html"
                         >
                             HOME
-                        </li>
-                        <li
+                        </a>
+                        <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="about.html"
                         >
                             ABOUT
-                        </li>
-                        <li
+                        </a>
+                        <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="service.html"
                         >
                             SERVICES
-                        </li>
-                        <li
+                        </a>
+                        <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="product.html"
                         >
                             Products
-                        </li>
-                        <li
+                        </a>
+                        <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="mission.html"
                         >
                             Mission & Vision
-                        </li>
-                        <li
+                        </a>
+                        <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="contact.html"
                         >
-                            Certification
-                        </li>
+                            Contact Us
+                        </a>
                     </ul>
                 </nav>
             </div>
@@ -119,7 +125,7 @@
                         />
                     </div>
                 </div>
-                <div class="flex gap-x-5 absolute top-[45%] right-[30%] z-[2]">
+                <div class="flex gap-x-5 absolute top-[45%] right-[36%] z-[2]">
                     <a
                         class="uppercase font-ru font-medium text-white px-6 py-2 button"
                         ><span class="hoverspan"></span>more details</a
@@ -171,11 +177,11 @@
                             </p>
                             <div class="flex gap-x-5 mt-7">
                                 <a
-                                    class="uppercase font-ru font-medium text-primary px-6 py-2 button"
+                                    class="uppercase font-ru font-medium text-primary px-6 py-2 button !z-10"
                                     ><span class="hoverspan"></span>view more</a
                                 >
                                 <a
-                                    class="uppercase font-ru font-medium text-primary px-6 py-2 button"
+                                    class="uppercase font-ru font-medium text-primary px-6 py-2 button !z-10"
                                     ><span class="hoverspan"></span>contact
                                     us</a
                                 >
@@ -203,9 +209,7 @@
                     </div>
                     <div class="w-[60%] flex flex-wrap">
                         <div class="w-[48%] border-b border-r pt-7">
-                            <i
-                                class="fa-solid fa-industry text-5xl ml-3 text-primary"
-                            ></i>
+                            <img src="./assets/fectory.svg" class="w-16" />
                             <h4
                                 class="font-ru text-2xl font-semibold my-5 text-textcolor"
                             >
@@ -219,9 +223,7 @@
                             </p>
                         </div>
                         <div class="w-[48%] pl-5 pt-7">
-                            <i
-                                class="fa-solid fa-industry text-5xl ml-3 text-primary"
-                            ></i>
+                            <img src="./assets/Production.svg" class="w-16" />
                             <h4
                                 class="font-ru text-2xl font-semibold my-5 text-textcolor"
                             >
@@ -235,9 +237,7 @@
                             </p>
                         </div>
                         <div class="w-[48%] pt-7">
-                            <i
-                                class="fa-solid fa-industry text-5xl ml-3 text-primary"
-                            ></i>
+                            <img src="./assets/Company.svg" class="w-16" />
                             <h4
                                 class="font-ru text-2xl font-semibold my-5 text-textcolor"
                             >
@@ -251,9 +251,7 @@
                             </p>
                         </div>
                         <div class="w-[48%] border-t border-l pl-5 pt-7">
-                            <i
-                                class="fa-solid fa-industry text-5xl ml-3 text-primary"
-                            ></i>
+                            <img src="./assets/Fabric.svg" class="w-16" />
                             <h4
                                 class="font-ru text-2xl font-semibold my-5 text-textcolor"
                             >
@@ -339,9 +337,10 @@
                         <div
                             class="flex flex-col justify-center items-center mx-auto"
                         >
-                            <i
-                                class="fa-solid fa-industry text-5xl border rounded-lg border-[#ffffffa1] p-5 text-white"
-                            ></i>
+                            <img
+                                src="./assets/client.svg"
+                                class="w-24 border rounded-lg border-[#ffffffa1] p-5"
+                            />
                             <div
                                 class="bg-primary w-3 h-3 rounded-full mt-4"
                             ></div>
@@ -357,9 +356,10 @@
                         <div
                             class="flex flex-col justify-center items-center mx-auto"
                         >
-                            <i
-                                class="fa-solid fa-industry text-5xl border rounded-lg border-[#ffffffa1] p-5 text-white"
-                            ></i>
+                            <img
+                                src="./assets/project.svg"
+                                class="w-24 text-white border rounded-lg border-[#ffffffa1] p-5"
+                            />
                             <div
                                 class="bg-primary w-3 h-3 rounded-full mt-4"
                             ></div>
@@ -375,9 +375,10 @@
                         <div
                             class="flex flex-col justify-center items-center mx-auto"
                         >
-                            <i
-                                class="fa-solid fa-industry text-5xl border rounded-lg border-[#ffffffa1] p-5 text-white"
-                            ></i>
+                            <img
+                                src="./assets/Production.svg"
+                                class="w-24 border rounded-lg border-[#ffffffa1] p-5"
+                            />
                             <div
                                 class="bg-primary w-3 h-3 rounded-full mt-4"
                             ></div>
@@ -393,9 +394,10 @@
                         <div
                             class="flex flex-col justify-center items-center mx-auto"
                         >
-                            <i
-                                class="fa-solid fa-industry text-5xl border rounded-lg border-[#ffffffa1] p-5 text-white"
-                            ></i>
+                            <img
+                                src="./assets/view.svg"
+                                class="w-24 border rounded-lg border-[#ffffffa1] p-5"
+                            />
                             <div
                                 class="bg-primary w-3 h-3 rounded-full mt-4"
                             ></div>
@@ -419,15 +421,17 @@
             <section class="bg-white py-16">
                 <div class="container px-2 mx-auto">
                     <h2
-                        class="font-ru font-medium text-textcolor text-3xl text-center "
+                        class="font-ru font-medium text-textcolor text-3xl text-center"
                     >
                         INDUSTRIES & PRODUCTION
                     </h2>
                     <div class="font-ru flex mt-10">
                         <div class="w-1/2">
                             <h5 class="text-textcolor font-medium text-4xl">
-                                We Give Top Production From<br/>
-                                <span class="font-bold text-5xl">Every Angle</span>
+                                We Give Top Production From<br />
+                                <span class="font-bold text-5xl"
+                                    >Every Angle</span
+                                >
                             </h5>
                         </div>
                         <div class="w-1/2">
@@ -441,21 +445,172 @@
                     </div>
                     <div class="flex mt-7 gap-x-5">
                         <div class="p-5 shadow-2xl">
-                            <img class="w-[400px]" src="./assets/showroom.jpg"/>
-                            <h6 class="font-ru text-3xl mt-5 font-medium text-textcolor">Testing</h6>
+                            <img
+                                class="w-[400px]"
+                                src="./assets/showroom.jpg"
+                            />
+                            <div class="flex justify-between items-center mt-5">
+                                <h6
+                                    class="font-ru text-3xl font-medium text-textcolor"
+                                >
+                                    Testing
+                                </h6>
+                                <i
+                                    class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
+                                ></i>
+                            </div>
                         </div>
                         <div class="p-5 shadow-2xl">
-                            <img class="w-[400px]" src="./assets/showroom.jpg"/>
-                            <h6 class="font-ru text-3xl mt-5 font-medium text-textcolor">Testing</h6>
+                            <img
+                                class="w-[400px]"
+                                src="./assets/showroom.jpg"
+                            />
+                            <div class="flex justify-between items-center mt-5">
+                                <h6
+                                    class="font-ru text-3xl font-medium text-textcolor"
+                                >
+                                    Engineering
+                                </h6>
+                                <i
+                                    class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
+                                ></i>
+                            </div>
                         </div>
                         <div class="p-5 shadow-2xl">
-                            <img class="w-[400px]" src="./assets/showroom.jpg"/>
-                            <h6 class="font-ru text-3xl mt-5 font-medium text-textcolor">Testing</h6>
+                            <img
+                                class="w-[400px]"
+                                src="./assets/showroom.jpg"
+                            />
+                            <div class="flex justify-between items-center mt-5">
+                                <h6
+                                    class="font-ru text-3xl font-medium text-textcolor"
+                                >
+                                    Fabric Dyeing
+                                </h6>
+                                <i
+                                    class="fa-solid fa-arrow-trend-up text-2xl text-textcolor"
+                                ></i>
+                            </div>
                         </div>
+                    </div>
+                    <div class="flex justify-center mt-7">
+                        <a
+                            class="uppercase font-ru font-medium text-primary px-10 py-2 button !z-10"
+                            ><span class="hoverspan"></span>View More
+                            Services!</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white pt-8 pb-16 border-t">
+                <div class="container mx-auto px-2 flex justify-between">
+                    <div>
+                        <div class="text-4xl font-bold">LOGO</div>
+                    </div>
+                    <div>
+                        <p class="font-ru font-medium text-textcolor text-xl">
+                            FHL Knitwear is operating in the textile market, as
+                            the manufacture and trader. As<br />
+                            years go by the range of produced textiles products
+                            has increased.
+                        </p>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <i
+                            class="fa-brands fa-facebook-f bg-slate-100 w-14 flex items-center justify-center h-14 p-4 shadow-lg rounded-full"
+                        ></i>
+                        <i
+                            class="fa-brands fa-twitter w-14 bg-slate-100 flex items-center justify-center h-14 p-4 shadow-lg rounded-full"
+                        ></i>
+                        <i
+                            class="fa-solid fa-envelope w-14 bg-slate-100 flex items-center justify-center h-14 p-4 shadow-lg rounded-full"
+                        ></i>
+                        <i
+                            class="fa-brands fa-linkedin w-14 bg-slate-100 flex items-center justify-center h-14 p-4 shadow-lg rounded-full"
+                        ></i>
                     </div>
                 </div>
             </section>
         </main>
+
+        <footer class="bg-[#0a0a0a] pt-16 pb-8">
+            <div class="container mx-auto px-2 flex">
+                <div class="w-[30%]">
+                    <h6 class="font-ru text-white text-3xl mb-8">
+                        Get Free Estimate
+                    </h6>
+                    <a
+                        class="uppercase font-ru font-medium text-white z-10 px-8 py-2 button"
+                        ><span class="hoverspan"></span>Request Online Form</a
+                    >
+                </div>
+                <div class="w-[20%]">
+                    <h6 class="font-ru text-white text-3xl mb-8">
+                        Useful Links
+                    </h6>
+                    <ul
+                        class="text-white font-ru flex flex-col gap-y-6 font-medium"
+                    >
+                        <li
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                        >
+                            Services
+                        </li>
+                        <li
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                        >
+                            About
+                        </li>
+                        <li
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                        >
+                            Mission Vision
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-[50%]">
+                    <h6 class="font-ru text-white text-3xl mb-8">Contact Us</h6>
+                    <div class="flex gap-x-5">
+                        <i class="fa-solid fa-location-dot text-primary"></i>
+                        <p class="text-white font-ru font-medium">
+                            House # 562 ( 4th Floor ), Road-08 ( New ) Avenue
+                            -03,<br />
+                            DOHS Mirpur, Dhaka-1216, Bangladesh
+                        </p>
+                    </div>
+                    <div class="flex gap-x-5 mt-5">
+                        <i class="fa-solid fa-phone text-primary"></i>
+                        <p class="text-white font-ru font-medium">
+                            +8801716092208
+                        </p>
+                    </div>
+                    <div class="flex gap-x-5 mt-5">
+                        <i class="fa-solid fa-envelope text-primary"></i>
+                        <p class="text-white font-ru font-medium">
+                            Jahid Rony<br />
+                            jahidrony@fhlknitwear.com<br />
+                            Pranab Chowdhury<br />
+                            pranab@fhlknitwear.com<br />
+                            Tomm Zielinski<br />
+                            tzielinski@fhlknitwear.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="font-ru font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"
+            >
+                Copyright © 2024 FHL Knitwear . Develope By
+                <a
+                    class="text-primary ml-1"
+                    href="https://synexdigital.com/"
+                    target="_blank"
+                >
+                    Synex digital</a
+                >
+            </div>
+        </footer>
 
         <!-- JS start -->
         <script

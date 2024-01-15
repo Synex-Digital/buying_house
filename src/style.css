@@ -8,8 +8,8 @@ body {
     padding: 0;
 }
 
-.owl-nav{
- display: flex;
+.owl-nav {
+    display: flex;
 }
 
 .button {
@@ -39,7 +39,7 @@ body {
     color: #fff;
 }
 
-.hovercategorydiv{
+.hovercategorydiv {
     text-align: center;
     border: #c3002f solid 1px;
     cursor: pointer;
@@ -47,7 +47,7 @@ body {
     overflow: hidden;
 }
 
-.hovercategorydiv .hovercategory{
+.hovercategorydiv .hovercategory {
     width: 0;
     height: 100%;
     position: absolute;
@@ -57,11 +57,43 @@ body {
     transition: 0.6s;
 }
 
-.hovercategorydiv:hover .hovercategory{
+.hovercategorydiv:hover .hovercategory {
     width: 8px;
     background: #c3002f;
 }
 
-.hovercategorydiv:hover{
+.hovercategorydiv:hover {
     color: #c3002f;
+}
+
+.nav_producthover:hover {
+    color: #c3002f;
+}
+
+.nav_producthover > .nav_product {
+    color: #262626; 
+  }
+
+.nav_producthover > .nav_product li:hover {
+    color: #c3002f; 
+}
+
+.nav_product {
+    width: 269px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    padding: 20px;
+    box-sizing: border-box;
+    top: 52px;
+    transform: scale(0);
+}
+
+.nav_producthover:hover .nav_product{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
 }

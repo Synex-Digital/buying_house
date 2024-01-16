@@ -15,6 +15,9 @@ module.exports = {
                 textcolor: "#262626",
                 ptagcolor: "#555c63",
             },
+            screens: {
+                'smd': '350px',
+              },
         },
     },
     plugins: [],

@@ -1366,6 +1366,14 @@ video {
       margin-top: 1.25rem;
     }
 
+    .smd\:max-sm\:-mt-2 {
+      margin-top: -0.5rem;
+    }
+
+    .smd\:max-sm\:-mt-2\.5 {
+      margin-top: -0.625rem;
+    }
+
     .smd\:max-sm\:text-center {
       text-align: center;
     }
@@ -1409,8 +1417,17 @@ video {
     width: 200px;
   }
 
+  .sm\:w-\[48\%\] {
+    width: 48%;
+  }
+
   .sm\:p-1 {
     padding: 0.25rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -1459,6 +1476,10 @@ video {
     width: 250px;
   }
 
+  .md\:w-\[45\%\] {
+    width: 45%;
+  }
+
   .md\:border-l {
     border-left-width: 1px;
   }
@@ -1473,6 +1494,18 @@ video {
 
   .md\:pl-5 {
     padding-left: 1.25rem;
+  }
+
+  @media not all and (min-width: 1024px) {
+    .md\:max-lg\:w-full {
+      width: 100%;
+    }
+  }
+
+  @media not all and (min-width: 768px) {
+    .md\:max-md\:w-full {
+      width: 100%;
+    }
   }
 }
 

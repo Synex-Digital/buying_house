@@ -1399,6 +1399,14 @@ video {
     width: 65%;
   }
 
+  .sm\:w-\[62\%\] {
+    width: 62%;
+  }
+
+  .sm\:w-\[34\%\] {
+    width: 34%;
+  }
+
   .sm\:p-1 {
     padding: 0.25rem;
   }

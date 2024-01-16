@@ -21,9 +21,70 @@
         <header class="bg-white flex fixed w-full drop-shadow-lg z-20">
             <div class="container mx-auto flex justify-between px-2 py-5">
                 <div><img width="200px" src="./assets/logo title 1.png" /></div>
-                <nav class="flex items-center justify-center">
+                <i
+                    class="fa-solid fa-bars lg:hidden cursor-pointer text-2xl flex items-center text-ptagcolor navClick"
+                ></i>
+                <nav class="lg:flex hidden items-center justify-center">
                     <ul
-                        class="uppercase flex gap-x-16 text-ptagcolor font-ru font-medium"
+                        class="uppercase flex gap-x-10 xl:gap-x-16 text-ptagcolor font-ru font-medium"
+                    >
+                        <a
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="index.html"
+                        >
+                            HOME
+                        </a>
+                        <a
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="about.html"
+                        >
+                            ABOUT
+                        </a>
+                        <a
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="service.html"
+                        >
+                            SERVICES
+                        </a>
+                        <a
+                            class="cursor-pointer transition duration-300 ease-in-out nav_producthover"
+                            href="product.html"
+                        >
+                            <span class="nav_product">
+                                <ul class="flex flex-col gap-y-4">
+                                    <li class="border-b pb-2">
+                                        CIRCULAR KNIT ITEMS
+                                    </li>
+                                    <li class="border-b pb-2">
+                                        SWEATER / FLAT KNIT
+                                    </li>
+                                    <li class="border-b pb-2">DENIM ITEMS</li>
+                                    <li class="border-b pb-2">WOVEN ITEMS</li>
+                                    <li>UNDERGARMENTS</li>
+                                </ul>
+                            </span>
+                            Products
+                        </a>
+                        <a
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="mission.html"
+                        >
+                            Mission & Vision
+                        </a>
+                        <a
+                            class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
+                            href="contact.html"
+                        >
+                            Contact Us
+                        </a>
+                    </ul>
+                </nav>
+
+                <nav
+                    class="absolute hidden w-full top-16 left-0 bg-white p-5 navBar"
+                >
+                    <ul
+                        class="uppercase flex flex-col gap-y-5 text-ptagcolor font-ru font-medium"
                     >
                         <a
                             class="hover:text-primary cursor-pointer transition duration-300 ease-in-out"
@@ -97,41 +158,41 @@
             <section class="bg-white py-16">
                 <div class="font-ru container mx-auto px-2">
                     <h2
-                        class="flex justify-center mt-20 mb-5 text-5xl font-semibold text-textcolor"
+                        class="flex justify-center lg:mt-20 mt-10 mb-5 text-5xl font-semibold text-textcolor"
                     >
                         Contact Form
                     </h2>
-                    <p class="font-medium text-ptagcolor flex justify-center">
+                    <p class="font-medium text-ptagcolor contents sm:flex justify-center">
                         Feel free to contact us through
                         <a class="text-primary mx-2">Twitter</a> or
                         <a class="text-primary mx-2">Facebook</a> if you prefer.
                     </p>
                     <div
-                        class="px-16 py-16 mt-10 shadow-xl bg-slate-100 rounded-lg"
+                        class="lg:px-16 px-5 py-16 mt-10 shadow-xl bg-slate-100 rounded-lg"
                     >
-                        <div class="flex justify-between">
+                        <div class="sm:flex justify-between">
                             <input
-                                class="w-[32%] border p-4"
+                                class="sm:w-[32%] w-full border p-4"
                                 placeholder="Your Name*"
                                 type="text"
                             />
                             <input
-                                class="w-[32%] border p-4"
+                                class="sm:w-[32%] w-full smd:max-sm:my-5 border p-4"
                                 placeholder="Your Email"
                                 type="email"
                             />
                             <input
-                                class="w-[32%] border p-4"
+                                class="sm:w-[32%] w-full border p-4"
                                 placeholder="Phone Number*"
                             />
                         </div>
-                        <div class="flex justify-between my-7">
+                        <div class="sm:flex justify-between my-7">
                             <input
-                                class="w-[48%] border p-4"
+                                class="sm:w-[48%] w-full border p-4"
                                 placeholder="Conpany Name*"
                             />
                             <input
-                                class="w-[48%] border p-4"
+                                class="sm:w-[48%] smd:max-sm:mt-5 w-full border p-4"
                                 placeholder="Subject"
                             />
                         </div>
@@ -148,11 +209,11 @@
                             >
                         </div>
                     </div>
-                    <div class="flex gap-x-5 mt-28">
-                        <div class="w-1/2">
+                    <div class="xl:flex gap-x-5 mt-28">
+                        <div class="xl:w-1/2">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.02637707981!2d90.37117441058695!3d23.74643878382104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40311a29c1f9eaa9%3A0x7eda334fe00e121c!2sSynex%20Digital!5e0!3m2!1sen!2sbd!4v1705259682326!5m2!1sen!2sbd"
-                                width="600"
+                                width="100%"
                                 height="450"
                                 style="border: 0"
                                 allowfullscreen=""
@@ -160,7 +221,7 @@
                                 referrerpolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>
-                        <div class="w-1/2">
+                        <div class="xl:w-1/2 smd:max-xl:mt-5">
                             <h6 class="mb-5 text-5xl text-textcolor">
                                 Get In
                                 <span
@@ -173,7 +234,7 @@
                             >
                                 Head Office
                             </h6>
-                            <div class="flex gap-x-5">
+                            <div class="sm:flex gap-x-5">
                                 <div class="flex items-center gap-x-5">
                                     <i
                                         class="fa-solid fa-location-dot text-3xl text-primary"
@@ -196,7 +257,7 @@
                                     ></i>
                                     <div>
                                         <p
-                                            class="mb-3 text-xl font-medium text-textcolor"
+                                            class="mb-3 text-xl smd:max-sm:mt-5 font-medium text-textcolor"
                                         >
                                             Call Us / Email
                                         </p>
@@ -215,17 +276,17 @@
         </main>
 
         <footer class="bg-[#0a0a0a] pt-16 pb-8">
-            <div class="container mx-auto px-2 flex">
-                <div class="w-[30%]">
+            <div class="container mx-auto px-2 flex smd:max-md:flex-col smd:max-md:gap-y-7">
+                <div class="md:w-[30%]">
                     <h6 class="font-ru text-white text-3xl mb-8">
                         Get Free Estimate
                     </h6>
                     <a
-                        class="uppercase font-ru font-medium text-white z-10 px-8 py-2 button"
+                        class="uppercase font-ru lg:font-medium text-white z-10 px-[10px] lg:px-8 py-2 button"
                         ><span class="hoverspan"></span>Request Online Form</a
                     >
                 </div>
-                <div class="w-[20%]">
+                <div class="md:w-[20%]">
                     <h6 class="font-ru text-white text-3xl mb-8">
                         Useful Links
                     </h6>
@@ -249,7 +310,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-[50%]">
+                <div class="md:w-[50%]">
                     <h6 class="font-ru text-white text-3xl mb-8">Contact Us</h6>
                     <div class="flex gap-x-5">
                         <i class="fa-solid fa-location-dot text-primary"></i>
@@ -274,11 +335,11 @@
                 </div>
             </div>
             <div
-                class="font-ru font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"
+                class="font-ru px-2 font-medium text-white mt-12 border-t pt-8 border-[#27272771] flex justify-center"
             >
                 Copyright © 2024 LN Associate Limited . Develope By
                 <a
-                    class="text-primary ml-1"
+                    class="text-primary ml-1 smd:max-md:contents"
                     href="https://synexdigital.com/"
                     target="_blank"
                 >
@@ -286,5 +347,14 @@
                 >
             </div>
         </footer>
+
+        <script>
+            let navClick = document.querySelector(".navClick");
+            let navBar = document.querySelector(".navBar");
+
+            navClick.addEventListener("click", function () {
+                navBar.classList.toggle("hidden");
+            });
+        </script>
     </body>
 </html>
